@@ -24,7 +24,6 @@ export default class List extends React.Component {
   }
 
   uploadState() {
-    console.log(PokemonsStore.getList());
     this.setState({
       list: PokemonsStore.getList(),
     });

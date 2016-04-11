@@ -9,7 +9,7 @@ export default class Item extends React.Component {
   render() {
     const { national_id, name, types } = this.props;
     const ListTypes = types.map((item, index) => {
-        return <span><span key={index} class="label label-info">{item.name}</span> </span>;
+        return <span key={index} ><span class="label label-info">{item.name}</span> </span>;
     });
 
     return (
