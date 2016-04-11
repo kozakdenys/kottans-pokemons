@@ -19,3 +19,8 @@ body {
 .container {
 	max-width: 970px;
 }
+
+.load-more {
+	display: block;
+	width: 100%;
+}
